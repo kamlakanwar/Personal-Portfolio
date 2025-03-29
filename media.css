@@ -1,0 +1,59 @@
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    
+    .bannerBtn{
+        display: block;
+        width: 100%;
+    }
+
+    .bannerBtn .demo{
+        padding: 5px;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        font-size: 1rem;
+    }
+
+    .aboutContainer {
+        display: block;
+        align-items: center;
+    }
+
+    .textbox {
+        width: 100%;
+        line-height: 2;
+    }
+
+    .skill-box p{
+        display: none;
+    }
+
+    .skill-box h2{
+        font-size: 13px;
+        line-height: 1;
+    }
+
+    .skill-box{
+        height: 6rem;
+        width: 28rem;
+    }
+
+    .img-box img{
+        height: 10rem;
+        width: 15rem;
+    }
+
+    .project-box1 {
+        display: inline-block;
+    }
+    
+    .project-box2 {
+        display: inline-block;
+    } 
+
+    .input-box input{
+        width: 100%;
+    }
+
+    #contact textarea{
+        width: 100%;
+    }
+}

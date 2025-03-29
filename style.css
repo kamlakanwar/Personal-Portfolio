@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ovo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ovo", serif;
+    font-weight: 500;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+}
+
+*::selection {
+    background: rgb(87, 212, 240);
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    line-height: inherit;
+    color: #fff;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+span{
+    color: rgb(16, 200, 216);
+}
+
+header {
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    border-radius: 5rem;
+    padding: 20px 40px;
+    background: rgb(96, 214, 232);
+    border-radius: 5rem;
+    border: 3px solid rgba(255, 255, 255, 0.125);
+}
+
+.navbar ul li a{
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);  
+    font-size: 17px;
+    position: relative;
+}
+
+.navbar ul li a:hover{
+    color:rgb(229, 228, 238)
+}
+
+#home{
+    margin: 6rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.banner {
+    margin: auto;
+}
+
+.banner-img img {
+    width: 12rem;
+    margin: 10px;
+}
+
+#home h2{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#home h1{
+    font-size: 3.75rem;
+    line-height: 1.5;
+}
+
+.bannerBtn{
+    margin: 20px 5px;
+    padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerBtn .demo{
+    margin: 20px 5px;
+    padding: 1rem 2.5rem;
+    border: 1px solid transparent;
+    border-radius: 5rem;
+    font-size: 1rem;
+}
+
+.bannerBtn .demo{
+    background: #fff;
+}
+
+.bannerBtn i{
+    margin: 5px;
+}
+
+.bannerBtn .demo:nth-child(2){
+    background: rgb(16, 200, 216);
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*  --about section starts here-- */
+.textbox {
+    font-size: 1rem;
+    width: 40%;
+    line-height: 2;
+}
+
+.toolIcon {
+    margin-top: 20px;
+  }
+  
+.toolIcon i {
+    margin-right: 15px;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/*  --about section ends here-- */
+
+/* --skills section starts here-- */
+
+#skills{
+    margin-top: 5rem;
+}
+
+.skill-section {
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    gap: 40px;
+}
+
+.skill-box{
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    height: 15rem;
+    width: 25rem;
+}
+
+.skill-box h2{
+    line-height: 3;
+}
+
+.skill-box a{
+    line-height: 3;
+}
+
+.skill-box p{
+    color: #fff;
+}
+/* --skills section ends here-- */
+
+/* --projects section starts here-- */
+#project{
+    margin: 5rem;
+}
+
+.project-box {
+    margin: 1rem;
+    padding: 20px;
+}
+
+.project-box1 {
+    display: flex;
+    justify-content: center;
+}
+
+.project-box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-box{
+    margin:20px;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+}
+
+.img-box img:hover{
+    box-shadow: 20px -20px 20px -20px #fff;
+}
+
+.img-box h3{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.img-box img{
+    height: 18rem;
+    width: 30rem;
+}
+/* --projects section ends here-- */
+
+/* --contact section starts here--  */
+#contact{
+    margin-bottom: 4rem;
+}
+
+#contact h3{
+    text-align: center;
+    margin: 20px;
+}
+
+#contact form{
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    height: 30rem;
+}
+
+.input-box{
+    justify-content: space-evenly;
+}
+
+.input-box input{
+    font-size: 1.2rem;
+    width: 20rem;
+    padding: 15px;
+    border-radius: .6rem;
+    margin: 1rem;
+}
+
+#contact textarea{
+    width: 49%;
+    margin: 1rem;
+    border-radius: .6rem;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.submitBtn button{
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 5rem;
+}
+/* --contact section ends here--  */
+
+/* --footer starts here--  */
+.email-address{
+    text-align: center;
+    margin: 40px;
+    text-transform: none;
+}
+
+footer{
+    border-top : 2px solid rgb(255, 255, 255);
+}
+
+.details{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-evenly;
+}
+
+.socialIcon{
+    font-size: 20px;
+}
+/* --footer ends here--  */

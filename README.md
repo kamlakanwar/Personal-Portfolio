@@ -20,8 +20,6 @@ his portfolio website is designed to highlight my work, skills and services. It 
 - **About Me** : Detailed information about my background, skills, and interests.
 - **Skills** : It consists the skills I have.
 - **Projects**: Descriptions and links to my projects.
-- **Lightweight & Fast** : Works instantly without lag or unnecessary features.
-- **Secure & Reliable** : Helps prevent weak and reused passwords for better account safety.
 
 ## Technologies Used
 

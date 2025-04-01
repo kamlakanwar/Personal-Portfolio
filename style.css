@@ -185,10 +185,6 @@ header {
 /* --skills section ends here-- */
 
 /* --projects section starts here-- */
-#project{
-    margin: 5rem;
-}
-
 .project-box {
     margin: 1rem;
     padding: 20px;

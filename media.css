@@ -12,9 +12,8 @@
          font-size: 15px;
     }
     
-    .bannerBtn .demo{
+    .bannerBtn {
         display: block;
-        width: 100%;
     }
 
     .bannerBtn .demo{
@@ -22,6 +21,7 @@
         border: 1px solid transparent;
         border-radius: 1rem;
         font-size: 1rem;
+        width: 100%;
     }
 
     .aboutContainer {

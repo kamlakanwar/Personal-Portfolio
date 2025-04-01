@@ -29,6 +29,10 @@
         align-items: center;
     }
 
+    image-section img{
+        width: 50px;
+    }
+
     .textbox {
         width: 100%;
         line-height: 2;

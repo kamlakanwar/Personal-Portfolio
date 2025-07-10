@@ -226,6 +226,10 @@ header {
     width: 30rem;
 }
 
+.img-box3 img{
+    height: 10rem;
+    width: 20rem;
+}
 /* --projects section ends here-- */
 
 /* --contact section starts here--  */

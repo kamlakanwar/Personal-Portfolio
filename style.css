@@ -199,6 +199,11 @@ header {
     justify-content: center;
 }
 
+.project-box3 {
+    display: flex;
+    justify-content: center;
+}
+
 .img-box{
     margin:20px;
     padding: 20px;
@@ -220,6 +225,7 @@ header {
     height: 18rem;
     width: 30rem;
 }
+
 /* --projects section ends here-- */
 
 /* --contact section starts here--  */

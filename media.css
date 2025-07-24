@@ -69,6 +69,9 @@
     .project-box2 {
         display: inline-block;
     } 
+     .project-box3 {
+        display: inline-block;
+    }
 
     .input-box input{
         width: 100%;

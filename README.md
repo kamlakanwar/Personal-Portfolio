@@ -1,4 +1,4 @@
-# Random Password-Generator
+# Portfolio website
 Welcome to the repository for my portfolio website! This project showcases my skills and Projects.
 
 ## Table of Contents
